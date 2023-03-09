@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px; /*valor minimo de altura*/
+            max-width: 800px;/*valor maximo de altura*/
+            margin:auto; 
+        }
+        img{
+            width: 100%; /*porcentagem da imagen*/
+        }
+    </style>
+</head>
+<body>
+   <main>
+    <h1>Testando Responsividade</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia odio illo ab similique aliquam explicabo? Alias, non quo, ab provident eligendi aspernatur, voluptas numquam repudiandae ipsum necessitatibus ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iure rem mollitia incidunt asperiores laboriosam eos aspernatur consectetur corporis, magnam dignissimos voluptates magni voluptate provident doloribus corrupti similique dolores? Aspernatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quae voluptate nemo praesentium saepe atque vel. Odit voluptatibus deserunt laboriosam nisi quis eos! Nesciunt quaerat ad voluptatibus aut rerum? Suscipit!</p>
+    <picture>
+        <source media="(max-width:300px )" srcset="imagens/irina-blok-pq.jpg"><!--para pc e diremtamente para celular na largura indicada-->
+       <img src="imagens/irina-blok.jpg" alt="irina-Blok"> <!--imagen da criadora do android--> 
+    </picture>
+    
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia odio illo ab similique aliquam explicabo? Alias, non quo, ab provident eligendi aspernatur, voluptas numquam repudiandae ipsum necessitatibus ipsam Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iure rem mollitia incidunt asperiores laboriosam eos aspernatur consectetur corporis, magnam dignissimos voluptates magni voluptate provident doloribus corrupti similique dolores? Aspernatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quae voluptate nemo praesentium saepe atque vel. Odit voluptatibus deserunt laboriosam nisi quis eos! Nesciunt quaerat ad voluptatibus aut rerum? Suscipit!</p>
+   </main>
+</body>
+</html>
